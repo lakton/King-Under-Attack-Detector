@@ -11,10 +11,10 @@
 
 ```
 Enter the king's position (e.g. d5): e5
-Enter the position of rook 1 (e.g. d5): e1
+Enter the position of rook 1 (e.g. d5): b1
 Enter the position of rook 2 (e.g. d5): e8
 Enter the position of rook 3 (e.g. d5): a5
-King is under attack from rook 1
+King is under attack from rook 2
 ```
 
 <h2>Описание реализации</h2>
