@@ -1,8 +1,7 @@
-/// @laktonnn / @lakton
 #include <iostream>
 #include <string>
 #include <regex>
-#include <cmath>
+#include "ChessMath.h"
 
 using namespace std;
 
@@ -11,7 +10,7 @@ struct Piece {
     int y;
 };
 
-int main() {
+int main(int argc, char* argv[]) {
     Piece king, rooks[3];
 
     // Get input from user
@@ -59,8 +58,8 @@ int main() {
             }
         }
         // Check if rook could move to the king's position
-        if ((rooks[i].x == king.x && abs(rooks[i].y - king.y) <= 1) ||
-            (rooks[i].y == king.y && abs(rooks[i].x - king.x) <= 1)) {
+        if ((rooks[i].x == king.x && ChessMath::isWithinRange(rooks[i].y, king.y - 1, king.y + 1)) ||
+            (rooks[i].y == king.y && ChessMath::isWithinRange(rooks[i].x, king.x - 1, king.x + 1))) {
             cout << "Invalid input: rook " << i + 1 << " can move the king's position" << endl;
             return 0;
         }
