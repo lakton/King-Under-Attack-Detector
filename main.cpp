@@ -10,7 +10,7 @@ struct Piece {
     int y;
 };
 
-int main(int argc, char* argv[]) {
+int main() {
     Piece king, rooks[3];
 
     // Get input from user
