@@ -1,4 +1,4 @@
-# Install script for directory: /home/lakton/Desktop/King-Under-Attack-Detector
+# Install script for directory: /home/runner/Desktop/King-Under-Attack-Detector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lakton/Desktop/King-Under-Attack-Detector/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/runner/Desktop/King-Under-Attack-Detector/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
