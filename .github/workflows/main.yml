@@ -13,14 +13,12 @@ jobs:
       - name: repo check
         uses: actions/checkout@v2
         
-      - name: Print current directory
-        run: pwd
-        
       - name: cmake install
         run: sudo apt-get install -y cmake
 
       - name: cmake
         run: |
+          pwd
           cd build
           cmake ..
           make
