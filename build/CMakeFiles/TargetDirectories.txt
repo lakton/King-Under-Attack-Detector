@@ -1,0 +1,4 @@
+/home/lakton/Desktop/King-Under-Attack-Detector/build/CMakeFiles/King-Under-Attack-Detector.dir
+/home/lakton/Desktop/King-Under-Attack-Detector/build/CMakeFiles/ChessMathTest.dir
+/home/lakton/Desktop/King-Under-Attack-Detector/build/CMakeFiles/edit_cache.dir
+/home/lakton/Desktop/King-Under-Attack-Detector/build/CMakeFiles/rebuild_cache.dir

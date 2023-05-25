@@ -1,0 +1,12 @@
+language: C++
+
+script:
+  mkdir build
+  cd build
+  cmake ..
+  make
+  ./ChessMathTest
+  cd ..
+
+notifications:
+  email: false

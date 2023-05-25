@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/King-Under-Attack-Detector.dir/main.cpp.o CMakeFiles/King-Under-Attack-Detector.dir/ChessMath.cpp.o -o King-Under-Attack-Detector 

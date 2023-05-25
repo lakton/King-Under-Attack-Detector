@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ChessMathTest.dir/tests/ChessMathTest.cpp.o CMakeFiles/ChessMathTest.dir/ChessMath.cpp.o -o ChessMathTest  -lgtest -lgtest_main 
