@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(King-Under-Attack-Detector)
 
-set(GTEST_DIR /home/runner/Desktop/King-Under-Attack-Detector/googletest-release)
+set(GTEST_DIR googletest-release-1.8.0)
 include_directories(${GTEST_DIR}/include)
 
 set(MAIN_SOURCE_FILES main.cpp ChessMath.cpp ChessMath.h)
