@@ -1,0 +1,31 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: repo check
+        uses: actions/checkout@v2
+
+      - name: cmake install
+        run: sudo apt-get install -y cmake
+
+      - name: cmake
+        run: |
+          cd build
+          cmake ..
+          make
+
+      - name: test / debug
+        run: |
+          cd tests
+          chmod +x ChessGameTest
+          ./ChessGameTest
+          cd ..
+          make debug
