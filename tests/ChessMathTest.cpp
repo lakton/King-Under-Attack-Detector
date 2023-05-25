@@ -1,4 +1,5 @@
-#include "King-Under-Attack-Detector/googletest-release-1.8.0/googletest/include/gtest/gtest.h"
+#include "gtest/gtest.h"
+
 #include "../ChessMath.h"
 
 TEST(ChessMathTest, IsWithinRangeTest) {
